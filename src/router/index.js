@@ -1,18 +1,17 @@
 import { createRouter, createWebHistory } from 'vue-router'
-import Home from '../views/HomeView.vue' // pastikan file ini juga ada
+import HomeView from '@/views/HomeView.vue'
 
 const routes = [
   {
     path: '/',
     name: 'Home',
-    component: Home
-  },
-  // Tambahkan rute lain jika perlu
+    component: HomeView
+  }
 ]
 
 const router = createRouter({
   history: createWebHistory(),
-  routes
+  routes // ← pastikan ini bukan undefined
 })
 
 export default router
