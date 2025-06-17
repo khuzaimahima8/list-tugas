@@ -1,0 +1,8 @@
+{
+  "name": "List-tugas",
+  "compatibility_date": "2025-06-17",
+  "assets": { 
+    "not_found_handling": "single-page-application"
+  },
+  "main": "./api/index.js"
+}
